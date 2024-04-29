@@ -1,0 +1,11 @@
+Firstly I created 3 variables stop words positive words and negative words from the txt files provided.Then I used beautiful Soup for web scrapping using class label to extract only heading and articles.
+I created word tokens using nltk and calculated word and sentence counts
+Using the stop words provided ,Cleaned the text and then checked positive and negative words in cleaned data to count positive and negative code
+Used regular expressions and find handelling to find all other parametres using the formulaes provided,althouth could have been calculated using Text Blob
+Finally I used pandas to load excel and executed th outputl file to generate all the results automatically using Def function
+
+To run this code:
+set Stop words Path
+Set positive words path
+Set negative words path
+Use an excel file in the format provided and set its path.
